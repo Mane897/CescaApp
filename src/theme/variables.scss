@@ -78,30 +78,30 @@
 
 
 
-  
+
   /** Facebook**/
-  --ion-color-base: #0024d6;
-  --ion-color-base-rgb: 0,36,214;
-  --ion-color-base-contrast: #ffffff;
-  --ion-color-base-contrast-rgb: 255,255,255;
-  --ion-color-base-shade: #0020bc;
-  --ion-color-base-tint: #1a3ada;
+  --ion-color-Facebook: #0024d6;
+  --ion-color-Facebook-rgb: 0,36,214;
+  --ion-color-Facebook-contrast: #ffffff;
+  --ion-color-Facebook-contrast-rgb: 255,255,255;
+  --ion-color-Facebook-shade: #0020bc;
+  --ion-color-Facebook-tint: #1a3ada;
 
   /** Youtube**/
-  --ion-color-red: #ff0000;
-  --ion-color-red-rgb: 255,0,0;
-  --ion-color-red-contrast: #ffffff;
-  --ion-color-red-contrast-rgb: 255,255,255;
-  --ion-color-red-shade: #e00000;
-  --ion-color-red-tint: #ff1a1a;
+  --ion-color-YouTube: #ff0000;
+  --ion-color-YouTube-rgb: 255,0,0;
+  --ion-color-YouTube-contrast: #ffffff;
+  --ion-color-YouTube-contrast-rgb: 255,255,255;
+  --ion-color-YouTube-shade: #e00000;
+  --ion-color-YouTube-tint: #ff1a1a;
 
   /** Twitter **/
-  --ion-color-twitter: #00d9ff;
-  --ion-color-twitter-rgb: 0,217,255;
-  --ion-color-twitter-contrast: #000000;
-  --ion-color-twitter-contrast-rgb: 0,0,0;
-  --ion-color-twitter-shade: #00bfe0;
-  --ion-color-twitter-tint: #1addff;
+  --ion-color-Twitter: #00d9ff;
+  --ion-color-Twitter-rgb: 0,217,255;
+  --ion-color-Twitter-contrast: #ffffff;
+  --ion-color-Twitter-contrast-rgb: 0,0,0;
+  --ion-color-Twitter-shade: #00bfe0;
+  --ion-color-Twitter-tint: #1addff;
 
   /** GitHub **/
   --ion-color-git: #000000;
@@ -121,18 +121,42 @@
 
 }
 :root {
-  --ion-color-gold: #ffd700;
-  --ion-color-gold-rgb: 255, 215, 0;
-  --ion-color-gold-contrast: #000000;
-  --ion-color-gold-contrast-rgb: 0, 0, 0;
-  --ion-color-gold-shade: #e0bd00;
-  --ion-color-gold-tint: #ffdb1a;
+  --ion-color-YouTube: #ff0000;
+  --ion-color-YouTube-rgb: 255,0,0;
+  --ion-color-YouTube-contrast: #ffffff;
+  --ion-color-YouTube-contrast-rgb: 255,255,255;
+  --ion-color-YouTube-shade: #e00000;
+  --ion-color-YouTube-tint: #ff1a1a;
 }
-.ion-color-gold {
-  --ion-color-base: var(--ion-color-gold) !important;
-  --ion-color-base-rgb: var(--ion-color-gold-rgb) !important;
-  --ion-color-contrast: var(--ion-color-gold-contrast) !important;
-  --ion-color-contrast-rgb: var(--ion-color-gold-contrast-rgb) !important;
-  --ion-color-shade: var(--ion-color-gold-shade) !important;
-  --ion-color-tint: var(--ion-color-gold-tint) !important;
+.ion-color-Youtube {
+  --ion-color-base: var(--ion-color-YouTube) !important;
+  --ion-color-base-rgb: var(--ion-color-YouTube-rgb) !important;
+  --ion-color-contrast: var(--ion-color-YouTube-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-YouTube-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-YouTube-shade) !important;
+  --ion-color-tint: var(--ion-color-YouTube-tint) !important;
+}
+.ion-color-Facebook {
+  --ion-color-base: var(--ion-color-Facebook) !important;
+  --ion-color-base-rgb: var(--ion-color-Facebook-rgb) !important;
+  --ion-color-contrast: var(--ion-color-Facebook-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-Facebook-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-Facebook-shade) !important;
+  --ion-color-tint: var(--ion-color-Facebook-tint) !important;
+}
+.ion-color-Twitter {
+  --ion-color-base: var(--ion-color-Twitter) !important;
+  --ion-color-base-rgb: var(--ion-color-Twitter-rgb) !important;
+  --ion-color-contrast: var(--ion-color-Twitter-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-Twitter-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-Twitter-shade) !important;
+  --ion-color-tint: var(--ion-color-Twitter-tint) !important;
+}
+.ion-color-git {
+  --ion-color-base: var(--ion-color-git) !important;
+  --ion-color-base-rgb: var(--ion-color-git-rgb) !important;
+  --ion-color-contrast: var(--ion-color-git-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-git-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-git-shade) !important;
+  --ion-color-tint: var(--ion-color-git-tint) !important;
 }
