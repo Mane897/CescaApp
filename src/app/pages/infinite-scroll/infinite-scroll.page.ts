@@ -18,7 +18,7 @@ export class InfiniteScrollPage implements OnInit {
   }
 
   loadData(event) {
-    console.log('cargando siguientes...');
+    console.log('cargando siguientes....');
 
     if (this.data.length > 50) {
       event.target.complete();
